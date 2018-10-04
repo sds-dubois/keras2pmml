@@ -21,7 +21,7 @@ To install keras2pmml, simply:
 
 .. code-block:: bash
 
-    $ pip install keras2pmml
+    $ pip install git+https://github.com/sds-dubois/keras2pmml.git
 
 Example
 -------
@@ -95,6 +95,7 @@ What is supported?
 - Activation functions
     * tanh
     * sigmoid/logistic
+    * linear/identity
     * softmax normalization on the output layer (with activation identity on output units)
 - Scalers
     * sklearn.preprocessing.StandardScaler

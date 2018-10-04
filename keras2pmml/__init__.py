@@ -12,6 +12,7 @@ SUPPORTED_ACTIVATIONS = {
     'tanh': 'tanh',
     'sigmoid': 'logistic',
     'relu': 'rectifier', 
+    'linear': 'identity',
     'softmax': 'identity'
 }
 
