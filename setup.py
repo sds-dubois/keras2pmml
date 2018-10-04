@@ -10,14 +10,14 @@ with open('README.rst') as readme_file:
 
 setup(
     name='keras2pmml',
-    version='0.1.0',
+    version='0.1.1',
     packages=['keras2pmml'],
     include_package_data=True,
     license='MIT',
     description='Simple exporter of Keras models into PMML',
     long_description=long_description,
-    url='https://github.com/vaclavcadek/keras2pmml',
-    author='Václav Čadek',
+    url='https://github.com/sds-dubois/keras2pmml',
+    author='Václav Čadek, Sebastien Dubois',
     author_email='vaclavcadek@gmail.com',
     install_requires=[
         'numpy>=1.6.1',

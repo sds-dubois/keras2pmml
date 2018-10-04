@@ -1,0 +1,4 @@
+*.pyc
+keras2pmml.egg-info/*
+build/*
+dist/*
